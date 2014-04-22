@@ -1,7 +1,7 @@
 
 __module__ = angular.module 'angularBootstrapNavTree',[]
 
-__module__.directive 'abnTree',['$timeout',($timeout)->
+__mod ule__.directive 'abnTree',['$timeout',($timeout)->
   restrict:'E'
   
   #templateUrl: '../dist/abn_tree_template.html' # <--- another way to do this
